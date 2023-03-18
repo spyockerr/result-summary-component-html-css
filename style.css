@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    color: hsl(0, 0%, 100%);
+    margin-top: 200px;
+    width: 70vh;
+    height: 50vh;
+    display: flex;
+    box-shadow: hsla(241, 100%, 89%, 0.6) 1.95px 1.95px 2.6px;
+    border-radius: 2rem;
+
+}
+
+.leftside {
+
+    width: 300px;
+    height: 50vh;
+    border-radius: 2rem;
+    text-align: center;
+
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.circle {
+
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+}
+
+#ss {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 75px;
+    font-weight: 800;
+    font-size: 90px;
+
+}
+
+#of100 {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 100px;
+    opacity: 0.6;
+
+
+}
+
+h2 {
+    padding-top: 15px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+h1 {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+#pr {
+    padding: 8px;
+    margin-top: 20px;
+    opacity: 0.6;
+
+
+}
+
+.summary {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);
+    display: flex;
+    justify-content: space-evenly;
+    color: hsl(0, 100%, 67%);
+    height: 40px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.memory {
+    display: flex;
+    height: 40px;
+    padding: 8px;
+    border-radius: 4px;
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.verbal {
+    display: flex;
+    height: 40px;
+    padding: 8px;
+    border-radius: 4px;
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.visual {
+    display: flex;
+    height: 40px;
+    padding: 8px;
+    border-radius: 4px;
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+#sum {
+    color: hsl(224, 30%, 27%);
+}
+
+#nums {
+    margin-left: 50px;
+    color: hsl(224, 30%, 27%);
+}
+
+#hunds {
+    color: hsl(241, 100%, 89%);
+}
+
+.continue {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    height: 40px;
+    padding-top: 8px;
+    text-align: center;
+    border-radius: 2rem;
+}
